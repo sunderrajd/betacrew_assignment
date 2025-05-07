@@ -2,22 +2,9 @@
 
 This repository contains a client-server application that simulates communication with the BetaCrew exchange server. The system handles receiving packets from the server, checking for missing sequences, requesting missing packets, and saving the data to an output file (output.json).
 
-## Project Structure
+## 📁 Project Structure
 
-betacrew_assignment/
-├── betacrew_client/
-│ ├── output/
-│ │ └── output.json
-│ ├── src/
-│ │ ├── client.js
-│ │ ├── packetParser.js
-│ │ ├── requestBuilder.js
-│ │ ├── sequenceChecker.js
-│ │ └── writer.js
-│ ├── package.json
-│ └── .gitignore
-└── betacrew_server/
-└── main.js
+<pre> 📁 betacrew_assignment/ ├── 📁 betacrew_client/ │ ├── 📁 output/ │ │ └── output.json │ ├── 📁 src/ │ │ ├── client.js │ │ ├── packetParser.js │ │ ├── requestBuilder.js │ │ ├── sequenceChecker.js │ │ └── writer.js │ ├── package.json │ └── .gitignore │ ├── 📁 betacrew_server/ │ └── main.js │ └── README.md </pre>
 
 - **betacrew_client/**: This folder contains all the code for the client application, which connects to the server, processes packets, handles missing packets, and writes the final result to `output.json`.
 - **betacrew_server/**: This folder contains the server code (main.js), which simulates a server-side application and sends data packets.
@@ -36,7 +23,7 @@ betacrew_assignment/
 1. **Clone the Repository:**
    First, clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/betacrew_assignment.git
+   git clone https://github.com/sunderrajd/betacrew_assignment.git
    cd betacrew_assignment
    ```
 2. **Install Dependencies**
